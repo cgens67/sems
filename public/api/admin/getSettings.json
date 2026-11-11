@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "data": {
+    "NAME": "SMJK Katholik Melaka",
+    "ADDRESS": "251, Jalan Gajah Berang, Kampung Tujuh, 75200 Melaka",
+    "EMAIL": "meb2099@moe.edu.my",
+    "FAX": "06-283 1261",
+    "NAME_SHORT": "CHS",
+    "URL": "https://chsmelaka.com",
+    "CLASS": ["PB","1B","1H","1K","1M","1P","1U","2B","2H","2K","2M","2P","2U","3B","3H","3K","3M","3P","3U","4B","4H","4K","4M","4P","4U","5B","5H","5K","5M","5P","5U"],
+    "STUDENT_CHECKOUT_ENABLED": false,
+    "STUDENT_EHADIR_LATE_HOUR": 7,
+    "STUDENT_EHADIR_LATE_MINUTE": 20,
+    "EHADIR_TOTAL_FORM": 5,
+    "STUDENT_EHADIR_MINIMUM_THRESHOLD": 15,
+    "STAFF_EHADIR_MINIMUM_THRESHOLD": 15,
+    "ERPH_FEATURE_ENABLED": true,
+    "LIBRARY_FEATURE_ENABLED": true,
+    "PREFECT_FEATURE_ENABLED": true,
+    "PSS_PORTAL_ENABLED": true,
+    "SCHOOL_CODE": "MEB2099"
+  }
+}
