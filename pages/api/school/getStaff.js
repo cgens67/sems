@@ -1,34 +1,81 @@
-const staff = [
-  {"id":"000409030505","name":"ENGKU MUHAMMAD AMIRUL IZZAT BIN ENGKU ALWI","section":"GURU","picture":null},{"id":"010716021130","name":"EVELYN MARIA A/P JOSEPH","section":"GURU","picture":"/files/sems/meb2099/staff/010716021130.png"},{"id":"080729040465","name":"NICHOLAS
-LEE DONG LOK","section":"GURU","picture":"http://cdn.owonico.link/files/sems/meb2099/staff/080729040465.png"},{"id":"680925045051","name":"YAU YEE SHIN","section":"GURU","picture":null},{"id":"681216045299","name":"NG THIAM HOCK","section":"KBK","picture":null},{"id":"690103016218","name":"FATIMAH
-BINTI ABD GHANI","section":"KBK","picture":null},{"id":"690414045091","name":"LAI SWEE HO","section":"GURU","picture":"/files/sems/meb2099/staff/690414045091.png"},{"id":"701024045062","name":"LIM AI YONG","section":"GURU","picture":"http://cdn.owonico.link/files/sems/meb2099/staff/701024045062.png"},{"id":"701108045158","name":"KEH
-HWEE LENG","section":"GURU","picture":null},{"id":"701220045190","name":"ONG SIEW MEI","section":"GURU","picture":null},{"id":"710421055066","name":"SEE YIKE LING","section":"GURU","picture":"/files/sems/meb2099/staff/710421055066.png"},{"id":"721211045234","name":"ROZILAH
-BINTI ISMAIL","section":"GURU","picture":"http://cdn.owonico.link/files/sems/meb2099/staff/721211045234.png"},{"id":"730217015540","name":"TAN LEE CHAN","section":"GURU","picture":"/files/sems/meb2099/staff/730217015540.png"},{"id":"731229025038","name":"TAN
-KOOI FUNG","section":"GURU","picture":null},{"id":"740219115122","name":"WAN ROSILA BINTI SULAIMAN","section":"KBK","picture":null},{"id":"740516045079","name":"ONG MEE HUA","section":"GURU","picture":null},{"id":"750323045178","name":"NOR AINI BINTI
-HASHIM","section":"GURU","picture":"http://cdn.owonico.link/files/sems/meb2099/staff/750323045178.png"},{"id":"751116045444","name":"HUSNI BINTI ISMAIL @ BAHARUDDIN","section":"KBK","picture":null},{"id":"760326045084","name":"NG LEE FONG","section":"GURU","picture":null},{"id":"760826045136","name":"MADIHA
-BINTI MOHAMMAD","section":"AKP","picture":null},{"id":"780730035337","name":"MAZRAN BIN ISMAIL","section":"GURU","picture":null},{"id":"780825045458","name":"LEE HUEY CHING","section":"GURU","picture":null},{"id":"791016135158","name":"GEORGIA ANAK MATHEW
-AIN","section":"GURU","picture":null},{"id":"800427016112","name":"SHAHRUN NAZIMAH BINTI SALLEH","section":"GURU","picture":null},{"id":"801214055040","name":"NOR AZURA BINTI ABU ZARIN","section":"AKP","picture":"/files/sems/meb2099/staff/801214055040.jpg"},{"id":"801221045166","name":"TEE
-HUAY SIN","section":"GURU","picture":"http://cdn.owonico.link/files/sems/meb2099/staff/801221045166.png"},{"id":"810212045230","name":"FOO SWEE LEE","section":"GURU","picture":null},{"id":"810817045217","name":"KANAN A/L RADA KRISHNAN","section":"GURU","picture":null},{"id":"810831045133","name":"HASBULLAH
-BIN MINHAT","section":"AKP","picture":null},{"id":"811205045210","name":"TIW PEI GYAN","section":"GURU","picture":null},{"id":"820225036199","name":"IKHWAN FADZLI BIN CHE GHAZALI","section":"GURU","picture":null},{"id":"820510105528","name":"SHAHIELA
-AKMA BINTI ABDUL AZIS","section":"GURU","picture":null},{"id":"820725045390","name":"SITI NOR BA'EYAH BINTI TAHIR","section":"GURU","picture":null},{"id":"820807045300","name":"TAN BEE JEN","section":"GURU","picture":null},{"id":"821111016004","name":"HABIBAH
-BT OMAR","section":"GURU","picture":null},{"id":"830117065602","name":"NOOR FADILAH BINTI MOHAMAD HASSAN","section":"GURU","picture":null},{"id":"830817045258","name":"EE SU TIEN","section":"GURU","picture":null},{"id":"840127055028","name":"ANNIE TONG
-SIEW MAY","section":"GURU","picture":null},{"id":"840407045203","name":"KHAIRUL EMRAN BIN JEMANGIN","section":"GURU","picture":null},{"id":"840422045148","name":"NOOR MASLIN BINTI BORHAN","section":"GURU","picture":"http://cdn.owonico.link/files/sems/meb2099/staff/840422045148.png"},{"id":"840519115894","name":"NOR
-HIDAYAH BINTI CHE SHAFEE","section":"GURU","picture":"http://cdn.owonico.link/files/sems/meb2099/staff/840519115894.png"},{"id":"841125045162","name":"SITI MUNIRAH BINTI SAREF","section":"GURU","picture":null},{"id":"850114045014","name":"SITI SALNIZA
-BINTI SHAHIDAN","section":"GURU","picture":null},{"id":"850117045036","name":"NOORDIANA BINTI MOHD ISHAK","section":"GURU","picture":null},{"id":"850121045450","name":"IYLIANA BINTI AZMI","section":"GURU","picture":"http://cdn.owonico.link/files/sems/meb2099/staff/850121045450.png"},{"id":"850206115382","name":"NURIZAN
-BINTI MUHAMAD","section":"GURU","picture":null},{"id":"851009015387","name":"EGBERT LEE BOON PIN","section":"GURU","picture":null},{"id":"851125045305","name":"MUHAMAD KHAIRI BIN JOHARI","section":"GURU","picture":null},{"id":"860214386528","name":"TAN
-PEI WUEN","section":"GURU","picture":null},{"id":"870311045038","name":"SITI SALWAH BINTI SENIN","section":"AKP","picture":null},{"id":"870330065659","name":"MOHD HILMI BIN MOHAMED","section":"GURU","picture":"http://cdn.owonico.link/files/sems/meb2099/staff/870330065659.png"},{"id":"870420385269","name":"OMAR
-BIN MUSTAFA","section":"GURU","picture":null},{"id":"870623235500","name":"LIYANA IZZATI BINTI OMAR","section":"AKP","picture":null},{"id":"880812525610","name":"CHAN MEI HUA","section":"GURU","picture":null},{"id":"891114045285","name":"MUSLIMIN BIN
-HASHIM","section":"AKP","picture":"http://cdn.owonico.link/files/sems/meb2099/staff/891114045285.png"},{"id":"891127036134","name":"NURUL HANI BINTI MOHD ZIKRI","section":"GURU","picture":"http://cdn.owonico.link/files/sems/meb2099/staff/891127036134.png"},{"id":"900212045184","name":"CHONG
-LEE CHING","section":"GURU","picture":null},{"id":"900906045306","name":"ILLI LIYANA BT KAMARUDIN","section":"GURU","picture":null},{"id":"910113045196","name":"CHUI HONG SHIEN","section":"GURU","picture":null},{"id":"910202036144","name":"NURUL AKMAL
-BINTI AZMI","section":"GURU","picture":"http://cdn.owonico.link/files/sems/meb2099/staff/910202036144.png"},{"id":"910215035335","name":"NOR ISLAM BIN RAMLEY","section":"GURU","picture":null},{"id":"920421145403","name":"MUHAMMAD FIZRAL BIN ABD RAHMAN","section":"GURU","picture":null},{"id":"920907016994","name":"NURUL
-ATIQAH BINTI JASLAN","section":"GURU","picture":null},{"id":"930202035406","name":"NURUL ATIKAH BINTI IBRAHIM","section":"GURU","picture":"http://cdn.owonico.link/files/sems/meb2099/staff/930202035406.png"},{"id":"930405045479","name":"MUHAMMAD ZAIDI
-BIN IBRAHIM","section":"GURU","picture":"http://cdn.owonico.link/files/sems/meb2099/staff/930405045479.png"},{"id":"930603036311","name":"ABDUL MU'IZ FIKRI BIN AB WAHAB","section":"GURU","picture":null},{"id":"930715045204","name":"DINA FARHANA BINTI
-ZULKEFLI","section":"GURU","picture":"/files/sems/meb2099/staff/930715045204.png"},{"id":"940709045178","name":"NURAZAH BINTI YAK MAT","section":"AKP","picture":null},{"id":"950128045072","name":"NURUL YASMIN BINTI MOHD YAZAM","section":"GURU","picture":null},{"id":"950304045240","name":"AISYAH
-IZZATI BINTI HASHIM","section":"GURU","picture":"http://cdn.owonico.link/files/sems/meb2099/staff/950304045240.png"},{"id":"951219045611","name":"MUHAMMAD HAIQAL BIN ROSLI","section":"GURU","picture":null},{"id":"970313045267","name":"MUHAMMAD HASSAN
-BIN ALI","section":"KBK","picture":null},{"id":"980419045133","name":"MUHAMMAD NURHAKIM BIN MUSTAZA","section":"GURU","picture":null},{"id":"980927045113","name":"SIVARAMAN A/L P. RAJAMANICKAM","section":"GURU","picture":null},{"id":"990731016926","name":"NUR
-HASIMAH BINTI YUNUS","section":"GURU","picture":null}
-];
-
 export default function handler(req, res) {
+  const staff = [
+    {"id":"000409030505","name":"ENGKU MUHAMMAD AMIRUL IZZAT BIN ENGKU ALWI","section":"GURU","picture":null},
+    {"id":"010716021130","name":"EVELYN MARIA A/P JOSEPH","section":"GURU","picture":"/files/sems/meb2099/staff/010716021130.png"},
+    {"id":"080729040465","name":"NICHOLAS LEE DONG LOK","section":"GURU","picture":"http://cdn.owonico.link/files/sems/meb2099/staff/080729040465.png"},
+    {"id":"680925045051","name":"YAU YEE SHIN","section":"GURU","picture":null},
+    {"id":"681216045299","name":"NG THIAM HOCK","section":"KBK","picture":null},
+    {"id":"690103016218","name":"FATIMAH BINTI ABD GHANI","section":"KBK","picture":null},
+    {"id":"690414045091","name":"LAI SWEE HO","section":"GURU","picture":"/files/sems/meb2099/staff/690414045091.png"},
+    {"id":"701024045062","name":"LIM AI YONG","section":"GURU","picture":"http://cdn.owonico.link/files/sems/meb2099/staff/701024045062.png"},
+    {"id":"701108045158","name":"KEH HWEE LENG","section":"GURU","picture":null},
+    {"id":"701220045190","name":"ONG SIEW MEI","section":"GURU","picture":null},
+    {"id":"710421055066","name":"SEE YIKE LING","section":"GURU","picture":"/files/sems/meb2099/staff/710421055066.png"},
+    {"id":"721211045234","name":"ROZILAH BINTI ISMAIL","section":"GURU","picture":"http://cdn.owonico.link/files/sems/meb2099/staff/721211045234.png"},
+    {"id":"730217015540","name":"TAN LEE CHAN","section":"GURU","picture":"/files/sems/meb2099/staff/730217015540.png"},
+    {"id":"731229025038","name":"TAN KOOI FUNG","section":"GURU","picture":null},
+    {"id":"740219115122","name":"WAN ROSILA BINTI SULAIMAN","section":"KBK","picture":null},
+    {"id":"740516045079","name":"ONG MEE HUA","section":"GURU","picture":null},
+    {"id":"750323045178","name":"NOR AINI BINTI HASHIM","section":"GURU","picture":"http://cdn.owonico.link/files/sems/meb2099/staff/750323045178.png"},
+    {"id":"751116045444","name":"HUSNI BINTI ISMAIL @ BAHARUDDIN","section":"KBK","picture":null},
+    {"id":"760326045084","name":"NG LEE FONG","section":"GURU","picture":null},
+    {"id":"760826045136","name":"MADIHA BINTI MOHAMMAD","section":"AKP","picture":null},
+    {"id":"780730035337","name":"MAZRAN BIN ISMAIL","section":"GURU","picture":null},
+    {"id":"780825045458","name":"LEE HUEY CHING","section":"GURU","picture":null},
+    {"id":"791016135158","name":"GEORGIA ANAK MATHEW AIN","section":"GURU","picture":null},
+    {"id":"800427016112","name":"SHAHRUN NAZIMAH BINTI SALLEH","section":"GURU","picture":null},
+    {"id":"801214055040","name":"NOR AZURA BINTI ABU ZARIN","section":"AKP","picture":"/files/sems/meb2099/staff/801214055040.jpg"},
+    {"id":"801221045166","name":"TEE HUAY SIN","section":"GURU","picture":"http://cdn.owonico.link/files/sems/meb2099/staff/801221045166.png"},
+    {"id":"810212045230","name":"FOO SWEE LEE","section":"GURU","picture":null},
+    {"id":"810817045217","name":"KANAN A/L RADA KRISHNAN","section":"GURU","picture":null},
+    {"id":"810831045133","name":"HASBULLAH BIN MINHAT","section":"AKP","picture":null},
+    {"id":"811205045210","name":"TIW PEI GYAN","section":"GURU","picture":null},
+    {"id":"820225036199","name":"IKHWAN FADZLI BIN CHE GHAZALI","section":"GURU","picture":null},
+    {"id":"820510105528","name":"SHAHIELA AKMA BINTI ABDUL AZIS","section":"GURU","picture":null},
+    {"id":"820725045390","name":"SITI NOR BA'EYAH BINTI TAHIR","section":"GURU","picture":null},
+    {"id":"820807045300","name":"TAN BEE JEN","section":"GURU","picture":null},
+    {"id":"821111016004","name":"HABIBAH BT OMAR","section":"GURU","picture":null},
+    {"id":"830117065602","name":"NOOR FADILAH BINTI MOHAMAD HASSAN","section":"GURU","picture":null},
+    {"id":"830817045258","name":"EE SU TIEN","section":"GURU","picture":null},
+    {"id":"840127055028","name":"ANNIE TONG SIEW MAY","section":"GURU","picture":null},
+    {"id":"840407045203","name":"KHAIRUL EMRAN BIN JEMANGIN","section":"GURU","picture":null},
+    {"id":"840422045148","name":"NOOR MASLIN BINTI BORHAN","section":"GURU","picture":"http://cdn.owonico.link/files/sems/meb2099/staff/840422045148.png"},
+    {"id":"840519115894","name":"NOR HIDAYAH BINTI CHE SHAFEE","section":"GURU","picture":"http://cdn.owonico.link/files/sems/meb2099/staff/840519115894.png"},
+    {"id":"841125045162","name":"SITI MUNIRAH BINTI SAREF","section":"GURU","picture":null},
+    {"id":"850114045014","name":"SITI SALNIZA BINTI SHAHIDAN","section":"GURU","picture":null},
+    {"id":"850117045036","name":"NOORDIANA BINTI MOHD ISHAK","section":"GURU","picture":null},
+    {"id":"850121045450","name":"IYLIANA BINTI AZMI","section":"GURU","picture":"http://cdn.owonico.link/files/sems/meb2099/staff/850121045450.png"},
+    {"id":"850206115382","name":"NURIZAN BINTI MUHAMAD","section":"GURU","picture":null},
+    {"id":"851009015387","name":"EGBERT LEE BOON PIN","section":"GURU","picture":null},
+    {"id":"851125045305","name":"MUHAMAD KHAIRI BIN JOHARI","section":"GURU","picture":null},
+    {"id":"860214386528","name":"TAN PEI WUEN","section":"GURU","picture":null},
+    {"id":"870311045038","name":"SITI SALWAH BINTI SENIN","section":"AKP","picture":null},
+    {"id":"870330065659","name":"MOHD HILMI BIN MOHAMED","section":"GURU","picture":"http://cdn.owonico.link/files/sems/meb2099/staff/870330065659.png"},
+    {"id":"870420385269","name":"OMAR BIN MUSTAFA","section":"GURU","picture":null},
+    {"id":"870623235500","name":"LIYANA IZZATI BINTI OMAR","section":"AKP","picture":null},
+    {"id":"880812525610","name":"CHAN MEI HUA","section":"GURU","picture":null},
+    {"id":"891114045285","name":"MUSLIMIN BIN HASHIM","section":"AKP","picture":"http://cdn.owonico.link/files/sems/meb2099/staff/891114045285.png"},
+    {"id":"891127036134","name":"NURUL HANI BINTI MOHD ZIKRI","section":"GURU","picture":"http://cdn.owonico.link/files/sems/meb2099/staff/891127036134.png"},
+    {"id":"900212045184","name":"CHONG LEE CHING","section":"GURU","picture":null},
+    {"id":"900906045306","name":"ILLI LIYANA BT KAMARUDIN","section":"GURU","picture":null},
+    {"id":"910113045196","name":"CHUI HONG SHIEN","section":"GURU","picture":null},
+    {"id":"910202036144","name":"NURUL AKMAL BINTI AZMI","section":"GURU","picture":"http://cdn.owonico.link/files/sems/meb2099/staff/910202036144.png"},
+    {"id":"910215035335","name":"NOR ISLAM BIN RAMLEY","section":"GURU","picture":null},
+    {"id":"920421145403","name":"MUHAMMAD FIZRAL BIN ABD RAHMAN","section":"GURU","picture":null},
+    {"id":"920907016994","name":"NURUL ATIQAH BINTI JASLAN","section":"GURU","picture":null},
+    {"id":"930202035406","name":"NURUL ATIKAH BINTI IBRAHIM","section":"GURU","picture":"http://cdn.owonico.link/files/sems/meb2099/staff/930202035406.png"},
+    {"id":"930405045479","name":"MUHAMMAD ZAIDI BIN IBRAHIM","section":"GURU","picture":"http://cdn.owonico.link/files/sems/meb2099/staff/930405045479.png"},
+    {"id":"930603036311","name":"ABDUL MU'IZ FIKRI BIN AB WAHAB","section":"GURU","picture":null},
+    {"id":"930715045204","name":"DINA FARHANA BINTI ZULKEFLI","section":"GURU","picture":"/files/sems/meb2099/staff/930715045204.png"},
+    {"id":"940709045178","name":"NURAZAH BINTI YAK MAT","section":"AKP","picture":null},
+    {"id":"950128045072","name":"NURUL YASMIN BINTI MOHD YAZAM","section":"GURU","picture":null},
+    {"id":"950304045240","name":"AISYAH IZZATI BINTI HASHIM","section":"GURU","picture":"http://cdn.owonico.link/files/sems/meb2099/staff/950304045240.png"},
+    {"id":"951219045611","name":"MUHAMMAD HAIQAL BIN ROSLI","section":"GURU","picture":null},
+    {"id":"970313045267","name":"MUHAMMAD HASSAN BIN ALI","section":"KBK","picture":null},
+    {"id":"980419045133","name":"MUHAMMAD NURHAKIM BIN MUSTAZA","section":"GURU","picture":null},
+    {"id":"980927045113","name":"SIVARAMAN A/L P. RAJAMANICKAM","section":"GURU","picture":null},
+    {"id":"990731016926","name":"NUR HASIMAH BINTI YUNUS","section":"GURU","picture":null}
+  ];
+
   res.status(200).json(staff);
 }
