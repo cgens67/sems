@@ -670,7 +670,7 @@ export default function EHadirPage() {
           className="bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-2xl shadow-xl p-6 mb-6 text-center"
         >
           <div className="flex items-center justify-center gap-2 mb-2">
-            <FiStar className="text-yellow-500" size:18 />
+            <FiStar className="text-yellow-500" size={18} />
             <p className="text-gray-600 dark:text-gray-400 italic">"{dailyQuote}"</p>
           </div>
           <p className="text-sm text-gray-500 dark:text-gray-400">{currentDateFormatted}</p>
