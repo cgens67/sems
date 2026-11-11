@@ -1,5 +1,6 @@
 import "../styles/globals.css";
 import Head from "next/head";
+import Sidebar from "@/components/Sidebar";
 
 export default function MyApp({ Component, pageProps }) {
   return (
@@ -12,6 +13,7 @@ export default function MyApp({ Component, pageProps }) {
           rel="stylesheet"
         />
       </Head>
+      <Sidebar />
       <Component {...pageProps} />
     </>
   );
